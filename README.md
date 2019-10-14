@@ -12,6 +12,10 @@ Sempre opte por um nome de variável que exponha (deixe claro) o dado que ela es
 
 Não há, em geral, um limite de tamanho para nomes de variáveis em Python. No entanto, existem algumas convenções que serão apresentadas a seguir.
 
+Em abreviações, devemos colocar todas as letras maiúsculas. Por exemplo: *HTTPServer*.
+
+Em resumo, evite nomes que são muito genéricos, assim como nomes que são muito prolixos.
+
 ### Variáveis
 
 Assim como em outras linguagens de programação, em Python temos variáveis globais e locais. As globais são aquelas que ficam fora do contexto das funções. Uma variável que está fora do corpo de uma função e só é acessada por outras funções para leitura, é implicitamente global. Além disso, outra forma de se ter uma variável desse tipo é simplesmente declarando-a como global. Já as variáveis locais são aquelas que são declaradas dentro de uma função e/ou que são declaradas como *self*.
@@ -38,7 +42,17 @@ _salario = 5000
 
 ### Classes
 
-Para as classes, devemos dar nomes seguindo a convenção *CamelCase*. Isto é, as iniciais devem ser maiúsculas, mesmo nos casos em que o nome for composto de mais de uma palavra.
+Para as classes, devemos dar nomes seguindo a convenção *CamelCase*. Isto é, as iniciais devem ser maiúsculas, mesmo nos casos em que o nome for composto de mais de uma palavra. Além disso, classes de exceções devem ser finalizadas com o nome "Error".
+```python
+class Carro:
+	# codigo
+
+class SalaDeAula:
+	# codigo
+
+class ParserError:
+	# codigo
+```
 
 ### Métodos
 
