@@ -65,9 +65,31 @@ def somar_debitos(this, compras):
 	# codigo
 ```
 
-## Referências
+## Estrutura do projeto
 
-- MARTIN, Robert C. **Código Limpo**. Alta Books, 2019.
-- Dev Team. **Python Naming Conventions**. 2014. Disponível [neste link](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html).
+Quando começamos um projeto, uma das primeiras preocupações que enfrentamos é em relação à organização dos arquivos que estamos criando. Isto é, o repositório do nosso projeto. No caso do Python, existe uma convenção que trata sobre a disposição dos arquivos e diretórios em um projeto.
 
+Além disso, se você está trabalhando em um projeto *open source* e planeja mantê-lo em um repositório online (Github, por exemplo) para que outras pessoas possam utilizar sua produção e/ou contribuir com melhorias, este tópico é muito importante.
 
+A seguir, listamos alguns itens importantes que você deve considerar ter no repositório do seu projeto.
+
+- **LICENSE**: a licença serve para dizer às pessoas o quê elas podem ou não fazer com a sua produção. O arquivo *LICENSE* deve estar no diretório raiz do seu repositório.
+- **README**: esse arquivo deve descrever as instruções básicas de uso do seu programa. Assim como no caso da licença, o arquivo *README.md* (feito em Markdown, nesse caso) deve estar no diretório raiz.
+- **module**: em alguns casos, esse diretório não é necessário, como naqueles em que você tem apenas um arquivo de código fonte no projeto. No entanto, caso o tenha, esse diretório deve estar, também, na raiz do repositório do projeto. Sendo assim, o código fonte é armazenado dentro do diretório */module*.
+- **setup.py**: é muito comum que os projetos feitos em Python tenham um script responsável por fazer o *build* do seu código. Quando houver, deve estar localizado no diretório raiz do repositório.
+- **requirements.txt**: um arquivo com os requisitos especificando as dependências que o seu programa precisa para funcionar pode ser bastante útil quando se está utilizando ferramentas como o PIP. Esse arquivo deve estar localizado no diretório raiz.
+- **Documentação**: o nome do arquivo é auto explicativo. Os arquivos que dizem respeito à documentação devem ser colocados dentro do diretório */docs*.
+- **Testes**: os seus testes devem estar armazenados dentro do diretório */tests.*
+
+Veja abaixo um exemplo de uma disposição de diretórios e arquivos dentro de um repositório bem organizado.
+```
+docs/conf.py
+docs/index.rst
+module/__init__.py
+module/core.py
+tests/core.py
+LICENSE
+README.md
+requirements.txt
+setup.py
+```
