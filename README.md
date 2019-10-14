@@ -4,7 +4,7 @@ Olá! Este é um guia de boas práticas para desenvolvedores Python. O objetivo 
 
 ## Nomes significativos
 
-Como programadores, nossa criatividade para nomear coisas está, frequentemente, sendo chamada à tona. No dia a dia, precisamos dar nome à diretórios, repositórios, classes, métodos, variáveis, etc. Por isso, conforme [1], devemos nos certificar que estamos fazendo isso bem feito. Além disso, essa boa prática não se trata de uma linguagem de programação ou outra. É válido para qualquer uma!
+Como programadores, nossa criatividade para nomear coisas está, frequentemente, sendo chamada à tona. No dia a dia, precisamos dar nome à diretórios, repositórios, classes, métodos, variáveis, etc. Por isso, conforme Martin, no livro Código Limpo, devemos nos certificar que estamos fazendo isso bem feito. Além disso, essa boa prática não se trata de uma linguagem de programação ou outra. É válido para qualquer uma!
 
 ### Um bom nome de variável
 
