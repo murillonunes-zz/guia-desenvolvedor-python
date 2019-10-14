@@ -67,4 +67,7 @@ def somar_debitos(this, compras):
 
 ## Referências
 
-[1] MARTIN, Robert C. **Código Limpo**. Alta Books, 2019.
+MARTIN, Robert C. **Código Limpo**. Alta Books, 2019.
+Dev Team. **Python Naming Conventions**. 2014. Disponível [neste link](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html).
+
+
