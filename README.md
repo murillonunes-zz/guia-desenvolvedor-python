@@ -98,4 +98,4 @@ setup.py
 
 - MARTIN, Robert C. **Código Limpo**. Alta Books, 2019.
 - Dev Team. **Python Naming Conventions**. 2014. Disponível [neste link](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html).
-- Powell-Morse, Andrew. **Python Best Practices**. 2016. Disponível [neste link]([https://airbrake.io/blog/python/python-best-practices](https://airbrake.io/blog/python/python-best-practices)).
+- Powell-Morse, Andrew. **Python Best Practices**. 2016. Disponível [neste link](https://airbrake.io/blog/python/python-best-practices).
